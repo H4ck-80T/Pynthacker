@@ -30,7 +30,7 @@ root@localhost:~# python ARPPoison.py -g a4:b7:ff:ff:ff:ff 10.10.10.0 -v b3:f4:6
 '''
 
 import sys, socket, binascii, time
-sys.path.append( '/home/lm/Pynthacker/Structures/' )
+sys.path.append( <absolute path to /Structures> )
 from Layer2 import ARP, EthernetFrame
 
 #Parse and prepare command line arguments
