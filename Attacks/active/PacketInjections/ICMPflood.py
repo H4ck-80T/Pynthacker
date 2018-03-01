@@ -14,7 +14,7 @@ root@localhost:~#python ICMP_Flood.py
 '''
 
 import sys, socket, time
-sys.path.append( '/home/lm/Pynthacker/Structures/' )
+sys.path.append( <absolute path to /Structures> )
 from Layer2 import EthernetFrame
 from Layer3.ICMP import *
 from Layer3.IPv4 import *
