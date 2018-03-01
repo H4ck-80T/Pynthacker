@@ -31,7 +31,7 @@ root@localhost:~#python Deauth.py -a ff:ff:ff:ff:ff:ff -c ff:ff:ff:ff:ff:ff ath0
 root@localhost:~#python Deauth.py 10 -a ff:ff:ff:ff:ff:ff ath0 
 '''
 import sys, socket, time
-sys.path.append( '/home/lm/Pynthacker/Structures/' )
+sys.path.append( <absolute path to /Structures> )
 from WLAN import RadioTap
 from WLAN.Management import DeauthFrame
 
