@@ -8,7 +8,7 @@ Receives the captured data from the control station and writes it inot a pcap fi
 
 #TCP Receiving socket
 sock=socket(AF_INET,SOCK_STREAM)
-sock.bind(('192.168.184.132',12345))
+sock.bind(('',12345))
 sock.listen(1)
 rsock,r_addr=sock.accept()
 
